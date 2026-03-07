@@ -1,6 +1,17 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  headers: () => [
+    {
+      source: "/.well-known/apple-app-site-association",
+      headers: [
+        {
+          key: "Content-Type",
+          value: "application/json",
+        },
+      ],
+    },
+  ],
   redirects: () => [
     {
       source: "/",
