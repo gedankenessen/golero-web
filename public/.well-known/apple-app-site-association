@@ -1,0 +1,17 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "C7AZL5XH4K.com.gedankenessen.golero",
+        "paths": ["/group/*/join"]
+      }
+    ]
+  },
+  "activitycontinuation": {
+    "apps": ["C7AZL5XH4K.com.gedankenessen.golero"]
+  },
+  "webcredentials": {
+    "apps": ["C7AZL5XH4K.com.gedankenessen.golero"]
+  }
+}
