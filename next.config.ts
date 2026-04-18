@@ -18,6 +18,11 @@ const nextConfig: NextConfig = {
       destination: "https://apps.apple.com/app/6760223128",
       permanent: false,
     },
+    {
+      source: "/privacy-policy",
+      destination: "/privacy",
+      permanent: true,
+    },
   ],
 };
 
